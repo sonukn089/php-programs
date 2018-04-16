@@ -19,5 +19,7 @@
 	echo "P&nbsp;&nbsp;&nbsp;&nbsp;"."&nbsp;&nbsp;H&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"    ."H&nbsp;&nbsp;"."P<br/>";
 	echo "P&nbsp;&nbsp;&nbsp;&nbsp;"."&nbsp;&nbsp;H&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"."H&nbsp;&nbsp;"."P";	
 
+	echo "<hr/>";
+
 
  ?>
