@@ -20,10 +20,34 @@
 							
 							echo "Your form has been sent successfully";
 						}
+						else{
+
+							echo "Your password doesn't match!";
+						}
+					}
+					else{
+
+						echo "You have to type your confirm password";
 					}
 				}
+				else{
+
+					echo "You have to type a password";
+				}
+			}
+			else{
+
+				echo "You have to type an adress";
 			}
 		}
+		else{
+
+			echo "You have to an type email";
+		}
+	}
+	else{
+
+		echo "You have to type a name";
 	}
 
 ?>
