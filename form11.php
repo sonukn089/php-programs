@@ -10,15 +10,15 @@
 		<table>
 			<tr>
 				<td>Name:</td>
-				<td></td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="text" name="email"></td>
 			</tr>
 			<tr>
 				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td></td>
+				<td><input type="submit" name="submit" value="Send"></td>
 			</tr>
 		</table>
 
