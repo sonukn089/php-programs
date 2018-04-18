@@ -6,6 +6,7 @@
 <body>
 
 	<form method="POST" action="processform.php">
+	<!-- <form method="GET" action="processform.php"> -->
 		
 		<table>
 			<tr>
