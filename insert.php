@@ -5,12 +5,11 @@
 	$password = $_POST['password'];
 
 	if ($name && $email && $password) {
-	
-			
 
-	}
-	else{
+		
 
+	}	
+    else{
 
 	}
 
