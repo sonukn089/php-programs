@@ -4,31 +4,27 @@
 	$email = $_POST['email'];
 	$password = $_POST['password'];
 
-	// if ($name && $email && $password) {
-	// }	
- //    else{
-	// }
+	if ($name && $email && $password) {
+
+		mysql_pconnect("localhost", "root", "") or die("We couldn't connect");
+
+		mysql_select_db("testsite1");
+
+		mysql_query("INSERT TO users1(name, email, password)
+			VALUES('$name', '$email', '$password')");
+
+		$registered = mysql_affected_rows();
+
+		echo "$registered was inserted";
+
+	}	
+  	else{
+
+  		echo "You have to complete the form!";
+
+	}
 	
-	$servername = "localhost";
-	$username = "";
-	$password = "";
-	$dbname = "users1";
 
-	try {
-	    $conn = new PDO("mysql:host=$servername;dbname=$users1");
-	    // set the PDO error mode to exception
-	    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	    $sql = "SELECT * FROM users1";
-	    // use exec() because no results are returned
-	    $conn->exec($sql);
-	    echo "New record created successfully";
-	    }
-	catch(PDOException $e)
-	    {
-	    echo $sql . "<br>" . $e->getMessage();
-	    }
-
-	$conn = null;
 
 
 ?>
