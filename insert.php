@@ -10,7 +10,7 @@
 
 		mysql_select_db("testsite1");
 
-		mysql_query("INSERT TO users1(name, email, password)
+		mysql_query("INSERT INTO users1(name, email, password)
 			VALUES('$name', '$email', '$password')");
 
 		$registered = mysql_affected_rows();
