@@ -8,6 +8,7 @@
 	<title>CRUD</title>
 </head>
 <body>
+	<h1>Register Form</h1>
 	<form method="POST" action="insert.php">
 		<table>
 			<tr>
@@ -28,6 +29,9 @@
 			</tr>
 		</table>
 	</form>
+
+	
+	<?php  include 'links.php'; ?>
 		
 </body>
 
