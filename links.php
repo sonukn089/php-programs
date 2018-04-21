@@ -12,7 +12,7 @@
 				&nbsp;
 			</td>
 			<td>
-				<a href="update.php">Edit User</a>
+				<a href="update1.php">Edit User</a>
 				&nbsp;
 			</td>
 			<td>
