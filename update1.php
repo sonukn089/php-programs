@@ -25,7 +25,8 @@
 		<td>$name</td>
 		<td>$email</td>
 		<td>$password</td></tr>";
-	}echo "</table>";
+	}
+	echo "</table>";
 
 	mysql_close();
 
