@@ -8,10 +8,10 @@
 
 	echo "<table width=\"90%\" align=center border=2>";
 
-	echo "<tr><td width=\"40%\" align=center bgcolor=\"FFFFFF\">ID</td>
-	<td width=\"40%\" align=center bgcolor=\"FFFF00\">NAME</td>
-	<td width=\"40%\" align=center bgcolor=\"FFFF00\">EMAIL</td>
-	<td width=\"40%\" align=center bgcolor=\"FFFFFF\">PASSWORD</td></tr>";
+	echo "<tr><td width=\"20%\" align=center bgcolor=\"FFFFFF\">ID</td>
+	<td width=\"30%\" align=center bgcolor=\"FFFF00\">NAME</td>
+	<td width=\"30%\" align=center bgcolor=\"FFFF00\">EMAIL</td>
+	<td width=\"30%\" align=center bgcolor=\"FFFFFF\">PASSWORD</td></tr>";
 
 	while ($row = mysql_fetch_array($result)) {
 		
