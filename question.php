@@ -11,11 +11,11 @@
 				<td>
 					<select>
 						<option>Subject ID</option>
-						<option>Hindi-1</option>
-						<option>English-2</option>
-						<option>Math-3</option>
-						<option>Physics-4</option>
-						<option>Chemistry-5</option>
+						<option>Hindi</option>
+						<option>English</option>
+						<option>Math</option>
+						<option>Physics</option>
+						<option>Chemistry</option>
 					</select>
 				</td>
 			</tr>
