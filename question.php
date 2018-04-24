@@ -20,7 +20,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td>type your Question</td>
+				<td>Type Your Question</td>
 				<td><textarea></textarea>Question</td>
 			</tr>
 			<tr>
