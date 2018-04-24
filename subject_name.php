@@ -6,6 +6,7 @@
 <body>
 	<form method="POST" action="insert_data.php">
 		<h1>Write Your Subject</h1>
+		
 		<table>
 			<tr>
 				<td>Subject Name:</td>
