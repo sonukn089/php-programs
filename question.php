@@ -10,7 +10,7 @@
 			<tr>
 				<td>
 					<select>
-						<option>Subject ID</option>
+						<option>Select Subject</option>
 						<option>Hindi</option>
 						<option>English</option>
 						<option>Math</option>
