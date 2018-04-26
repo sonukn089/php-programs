@@ -21,7 +21,7 @@
 			</tr>
 			<tr>
 				<td>Type Your Question</td>
-				<td><textarea></textarea>Question</td>
+				<td><textarea></textarea>Questions</td>
 			</tr>
 			<tr>
 				<td></td>
