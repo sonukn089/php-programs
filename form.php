@@ -17,6 +17,10 @@
 				<td><input type="text" name="email"></td>
 			</tr>
 			<tr>
+				<td>Number:</td>
+				<td><input type="text" name="number"></td>
+			</tr>
+			<tr>
 				<td>Adress:</td>
 				<td><input type="text" name="adress"></td>
 			</tr>
