@@ -57,6 +57,10 @@
 				<td></td>
 			</tr>
 			<tr>
+				<td>Image:</td>
+				<td><input type="file" name="fileToUpload" id="fileToUpload"></td>
+			</tr>
+			<tr>
 				<td><input type="submit" name="btn" value="1"></td>
 				<td><input type="submit" name="btn" value="delete"></td>
 			</tr>
