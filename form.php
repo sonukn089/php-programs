@@ -21,6 +21,15 @@
 				<td><input type="text" name="number"></td>
 			</tr>
 			<tr>
+				<td>Country:</td>
+				<td>
+					<select>
+						<option>India</option>
+						<option>New Zeland</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
 				<td>City:</td>
 				<td>
 					<select>
