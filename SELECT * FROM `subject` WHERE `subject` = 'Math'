@@ -1,0 +1,2 @@
+SELECT * FROM `subject` WHERE `subject` = 'Math'
+SELECT * FROM `Question` WHERE `SubjectID` = (SELECT `id` FROM `subject` WHERE `title` = 'Math')

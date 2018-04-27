@@ -17,6 +17,34 @@
 				<td><input type="text" name="email"></td>
 			</tr>
 			<tr>
+				<td>Number:</td>
+				<td><input type="text" name="number"></td>
+			</tr>
+			<tr>
+				<td>Country:</td>
+				<td>
+					<select>
+						<option>Select Country:</option>
+						<option>India</option>
+						<option>New Zeland</option>
+						<option>England</option>
+						<option>South Africa</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>City:</td>
+				<td>
+					<select>
+						<option>Select City:</option>
+						<option>Kanpur</option>
+						<option>Lucknow</option>
+						<option>Delhi</option>
+						<option>Patna</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
 				<td>Adress:</td>
 				<td><input type="text" name="adress"></td>
 			</tr>
@@ -27,6 +55,10 @@
 			<tr>
 				<td></td>
 				<td></td>
+			</tr>
+			<tr>
+				<td>Image:</td>
+				<td><input type="file" name="fileToUpload" id="fileToUpload"></td>
 			</tr>
 			<tr>
 				<td><input type="submit" name="btn" value="1"></td>
