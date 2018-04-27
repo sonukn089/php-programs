@@ -24,7 +24,7 @@
 				<td>Country:</td>
 				<td>
 					<select>
-						<option>Country:</option>
+						<option>Select Country:</option>
 						<option>India</option>
 						<option>New Zeland</option>
 						<option>England</option>
