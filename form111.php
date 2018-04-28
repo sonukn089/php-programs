@@ -9,6 +9,7 @@
 </head>
 <body>
 	<h1>Register Form</h1>
+	<h2>This your registration page:</h2>
 	<form method="POST" action="insert.php">
 		<table>
 			<tr>
