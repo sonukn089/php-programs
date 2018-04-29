@@ -11,21 +11,26 @@
 				<td><input type="text" name="name"></td>
 			</tr>
 			<tr>
-				<td>Name:</td>
-				<td><input type="text" name="name"></td>
+				<td>Email:</td>
+				<td><input type="text" name="email"></td>
 			</tr>
 			<tr>
-				<td>Name:</td>
-				<td><input type="text" name="name"></td>
+				<td>Address:</td>
+				<td><input type="text" name="address"></td>
 			</tr>
 			<tr>
-				<td>Name:</td>
-				<td><input type="text" name="name"></td>
+				<td>Password:</td>
+				<td><input type="text" name="password"></td>
 			</tr>
 			<tr>
-				<td>Name:</td>
-				<td><input type="text" name="name"></td>
+				<td>Confirm Password:</td>
+				<td><input type="text" name="cpassword"></td>
 			</tr>	
+
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
 			
 		</table>
 	</form>
