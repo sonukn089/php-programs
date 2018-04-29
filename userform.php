@@ -4,7 +4,7 @@
 	<title>User Form</title>
 </head>
 <body>
-	<form>
+	<form method="POST" action="userprocess.php">
 		<table>
 			<tr>
 				<td>Name:</td>
@@ -20,16 +20,16 @@
 			</tr>
 			<tr>
 				<td>Password:</td>
-				<td><input type="text" name="password"></td>
+				<td><input type="password" name="password"></td>
 			</tr>
 			<tr>
 				<td>Confirm Password:</td>
-				<td><input type="text" name="cpassword"></td>
+				<td><input type="password" name="cpassword"></td>
 			</tr>	
 
 			<tr>
 				<td></td>
-				<td></td>
+				<td><input type="submit" name="submit" value="submit"></td>
 			</tr>
 			
 		</table>
