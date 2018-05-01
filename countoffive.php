@@ -1,16 +1,16 @@
 <?php
 
-	function countFive($five) {
+	$n = array(5,20,30,5,56,5);
 
-		$n = array(20,5,7,35,5,25,10,5,5,20,5,7,10,5,25,5,50,5,5,30);
+	function countFive($arr) {
 
 		$five = 0;
 
-		for ($i=0; $i<20; $i++) { 
+		for ($i=0; $i<count($arr); $i++) { 
 			
 			//echo $n[$i]."<br/>";
 
-			if ($n[$i] == 5) {
+			if ($arr[$i] == 5) {
 			
 				$five++;
 				
@@ -21,7 +21,8 @@
 			
 
 	}
-	countFive(20);
+
+	countFive($n);
 
 
 ?>
