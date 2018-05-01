@@ -2,7 +2,7 @@
 
 	function countFive($five) {
 
-		$n = array(20,5,7,35,5,25,10,50,5,20,5,7,10,5,25,5,50,5,5,30);
+		$n = array(20,5,7,35,5,25,10,5,5,20,5,7,10,5,25,5,50,5,5,30);
 
 		$five = 0;
 
@@ -15,8 +15,10 @@
 				$five++;
 				
 			}
+
 		}
-		echo $five;
+		echo "Five number is : ".$five;
+			
 
 	}
 	countFive(20);
