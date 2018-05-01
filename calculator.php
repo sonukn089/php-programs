@@ -5,19 +5,19 @@
 </head>
 <body>
 
-	<form>
+	<form method="get">
 		<table>
 			<tr>
 				<td><input type="text" name="num1" placeholder="number1"></td>
 				<td><input type="text" name="num2" placeholder="number2"></td>
 				<td>
-					<select name="operator">
+					<select name="operator" required="true">
 						<option>None</option>
 						<option>Add</option>
 						<option>Subtract</option>
 						<option>Multiply</option>
 						<option>Divide</option>
-				</select>
+					</select>
 				</td>
 			</tr>
 			<tr>
