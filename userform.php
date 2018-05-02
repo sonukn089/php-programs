@@ -4,6 +4,7 @@
 	<title>User Form</title>
 </head>
 <body>
+	<h1>User Form</h1>
 	<form method="POST" action="userprocess.php">
 		<table>
 			<tr>
