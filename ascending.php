@@ -4,17 +4,34 @@
 
 	function ascendingOrder($arry){
 
-		$result = 0;
+		$result[] = 20;
 
-		for ($i=0; $i < count($arry); $i++) { 
+		for ($i=0; $i < count($arry); $i++) {
+
 			
 			
+			/*$number = 0;
+
+			echo $i;
+
+			if ($arry[$i] > $number) {
+				
+				for ($j=0; $j < count($arry); $j++) { 
+					
+					$result[$j] = $arry[$i];
+				}
+				echo "<pre>";
+				print_r($arry);
+				echo "</pre>";
+			}
+
+			$number++;*/
 		}
-
-
-
-
-
+		echo "<pre>";
+			print_r($result);
+			echo "</pre>";
 	}
+
+	ascendingOrder($n);
 
 ?>
