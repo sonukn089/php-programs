@@ -7,7 +7,7 @@
 
 	<form method="get">
 		<table>
-			<h2>Calculator</h2>
+			<h2>Calculator All Function</h2>
 			<tr>
 				<td><input type="text" name="num1" placeholder="number1"></td>
 				<td><input type="text" name="num2" placeholder="number2"></td>
